@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMF TOURNOI - Inscription</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>BMF TOURNOI</h1>
+    <p>Formulaire d'inscription officiel</p>
+    <form id="form" enctype="multipart/form-data">
+      <input type="text" name="team" placeholder="Nom de l’équipe" required />
+      <input type="text" name="captain" placeholder="Capitaine" required />
+      <input type="text" name="member1" placeholder="Membre 1" />
+      <input type="text" name="member2" placeholder="Membre 2" />
+      <input type="text" name="member3" placeholder="Membre 3" />
+      <input type="text" name="member4" placeholder="Membre 4" />
+      <input type="text" name="member5" placeholder="Membre 5" />
+      <input type="text" name="member6" placeholder="Membre 6" />
+      <label>Image de l'équipe :</label>
+      <input type="file" name="teamImage" required />
+      <label>Preuve de paiement :</label>
+      <input type="file" name="proof" required />
+      <button type="submit">Envoyer</button>
+      <p id="confirmation"></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
